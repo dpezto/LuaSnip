@@ -598,7 +598,7 @@ s("trig", {
   strings for multiline strings, where all lines following the first will be
   prefixed with the snippets' indentation.
 
-- `argnode_references`: `node_reference[]|node_refernce|nil`.  
+- `argnode_references`: `node_reference[]|node_reference|nil`.  
   Either no, a single, or multiple [Node Reference](#node-reference)s.
   Changing any of these will trigger a re-evaluation of `fn`, and insertion of
   the updated text.  
